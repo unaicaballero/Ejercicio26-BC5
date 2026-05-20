@@ -1,0 +1,3 @@
+Ejercicio 26 - BC5
+Implementar un botón que permita eliminar un empleado seleccionado del TableView y de la base de datos.
+Al ejecutar la aplicación se abre una ventana de 450x380 píxeles con el título "Ejercicio 26 - Eliminar empleado seleccionado". La tabla se carga automáticamente al arrancar. Al pulsar "Eliminar seleccionado" se comprueba primero si hay una fila seleccionada: si no la hay, muestra un Alert de tipo WARNING; si la hay, muestra un Alert de tipo CONFIRMATION pidiendo confirmación antes de ejecutar el DELETE en la base de datos. Si el usuario confirma, el registro se elimina tanto de la base de datos como del TableView sin necesidad de recargar.
